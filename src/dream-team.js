@@ -6,7 +6,6 @@ module.exports = function createDreamTeam(members) {
   }
   let res = "";
   let arr = [];
-  //members.sort();
   for (let i = 0; i < members.length; i++) {
     if (typeof members[i] === "string" && /^[a-zA-Z _]+$/.test(members[i])) {
       if (members[i].slice(0, 1) == " ") {
